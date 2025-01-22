@@ -222,7 +222,6 @@ sudo docker run -v $(pwd):/build/ -it mu:v1
 
 | Device                               | Target name            | DSDT Support    | Contributors                                       |
 |--------------------------------------|------------------------|-----------------|----------------------------------------------------|
-| Xiaomi Note 10 Pro                   | xiaomi-sweet           | ❌              | [dopaemon](https://github.com/dopaemon)            |
 | Xiaomi Note 9S                       | xiaomi-miatoll         | ✅              | Icesito                                            |
 
 ### Snapdragon 730/730G/732G (*SM7150*)
