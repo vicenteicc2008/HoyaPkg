@@ -16,7 +16,7 @@ INF Cambria/BOOT.XF.3.0.1-00243-SC8180XWZB-2/QcomPkg/Drivers/UsbInitDxe/UsbInitD
 INF Cambria/BOOT.XF.3.0.1-00243-SC8180XWZB-2/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
 INF Cambria/BOOT.XF.3.0.1-00243-SC8180XWZB-2/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
 INF Cambria/BOOT.XF.3.0.1-00243-SC8180XWZB-2/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
-INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+#INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
 #INF MdeModulePkg/Core/Dxe/DxeMain.inf
 #INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf
@@ -102,6 +102,7 @@ INF QcomPkg/PatchedBinaries/PciHostBridgeDxe.inf
 INF SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UsbConfigDxe.inf
 INF SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
 INF SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
+INF SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
 
 # DXE without depex
 FILE DRIVER = 6b38f7b4-ad98-40e9-9093-aca2b5a253c4 {
@@ -248,48 +249,48 @@ FILE FREEFORM = 45A8FDA2-4FAD-4234-BCDA-D1778611CE13 {
     SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_boe_amoled_wqhd_dsc_vid.xml
 }
 
-
-FILE FREEFORM = 708A5B80-136B-45A9-A03E-98F450FC24BF {
-    SECTION UI = "Panel_samsung_ea8076_f1_fhd_amoled_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_samsung_ea8076_f1_fhd_amoled_cmd.xml
-}
-
-
-FILE FREEFORM = C3C905CA-76CA-4953-AB01-F6EC104321C4 {
-    SECTION UI = "Panel_samsung_ea8076_f1p2_2_fhd_amoled_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_samsung_ea8076_f1p2_2_fhd_amoled_cmd.xml
-}
-
-
-FILE FREEFORM = 6336ECB1-E9D2-4B42-A6CF-91A9161F4BDC {
-    SECTION UI = "Panel_samsung_ea8076_f1mp_fhd_amoled_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_samsung_ea8076_f1mp_fhd_amoled_cmd.xml
-}
-
-
-FILE FREEFORM = 5173F1A2-C420-42C2-BFB4-FEC7DF1A563D {
-    SECTION UI = "Panel_tianma_nt36672a_fhd_video.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_tianma_nt36672a_fhd_video.xml
-}
-
-
-FILE FREEFORM = 85F54ABD-6BBE-48EB-9699-37B6C68BCAAF {
-    SECTION UI = "Panel_ss_ea8076_f11_fhd_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ss_ea8076_f11_fhd_cmd.xml
-}
-
-
-FILE FREEFORM = BB75DC26-0D6D-4611-ACAE-6F804A59718C {
-    SECTION UI = "Panel_ss_ea8076_f11_global_fhd_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ss_ea8076_f11_global_fhd_cmd.xml
-}
-
-
-FILE FREEFORM = 951373A9-DCBB-4C42-AD6C-14593492D49B {
-    SECTION UI = "Panel_visionox_r66456_f11_fhd_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_visionox_r66456_f11_fhd_cmd.xml
-}
-
+#
+#FILE FREEFORM = 708A5B80-136B-45A9-A03E-98F450FC24BF {
+#    SECTION UI = "Panel_samsung_ea8076_f1_fhd_amoled_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_samsung_ea8076_f1_fhd_amoled_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = C3C905CA-76CA-4953-AB01-F6EC104321C4 {
+#    SECTION UI = "Panel_samsung_ea8076_f1p2_2_fhd_amoled_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_samsung_ea8076_f1p2_2_fhd_amoled_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = 6336ECB1-E9D2-4B42-A6CF-91A9161F4BDC {
+#    SECTION UI = "Panel_samsung_ea8076_f1mp_fhd_amoled_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_samsung_ea8076_f1mp_fhd_amoled_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = 5173F1A2-C420-42C2-BFB4-FEC7DF1A563D {
+#    SECTION UI = "Panel_tianma_nt36672a_fhd_video.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_tianma_nt36672a_fhd_video.xml
+#}
+#
+#
+#FILE FREEFORM = 85F54ABD-6BBE-48EB-9699-37B6C68BCAAF {
+#    SECTION UI = "Panel_ss_ea8076_f11_fhd_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ss_ea8076_f11_fhd_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = BB75DC26-0D6D-4611-ACAE-6F804A59718C {
+#    SECTION UI = "Panel_ss_ea8076_f11_global_fhd_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ss_ea8076_f11_global_fhd_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = 951373A9-DCBB-4C42-AD6C-14593492D49B {
+#    SECTION UI = "Panel_visionox_r66456_f11_fhd_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_visionox_r66456_f11_fhd_cmd.xml
+#}
+#
 
 FILE FREEFORM = 2BCA3B86-E175-4609-AC7F-207908B89C75 {
     SECTION UI = "Panel_primary_sharp_1080p_cmd.xml"
@@ -302,12 +303,12 @@ FILE FREEFORM = A3607731-F28D-496C-83D3-FB182F885F8C {
     SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_secondary_truly_1080p_cmd.xml
 }
 
-
-FILE FREEFORM = 32C7620B-9746-4BB6-8166-605682A2C58A {
-    SECTION UI = "Panel_nt36850_truly_wqhd_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_nt36850_truly_wqhd_cmd.xml
-}
-
+#
+#FILE FREEFORM = 32C7620B-9746-4BB6-8166-605682A2C58A {
+#    SECTION UI = "Panel_nt36850_truly_wqhd_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_nt36850_truly_wqhd_cmd.xml
+#}
+#
 
 FILE FREEFORM = 2FD70D55-C89A-47C8-A960-5A3AAA10426C {
     SECTION UI = "Panel_sdx55_truly_wqxga_dual_cmd.xml"
@@ -332,36 +333,36 @@ FILE FREEFORM = 151F4DFB-643B-418D-ACB3-A66BC8D7A4EF {
     SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_sdx55_sharp_4k_dsc_vid.xml
 }
 
-
-FILE FREEFORM = 1FFE15E5-7EF7-4B25-A02C-4199769D2C62 {
-    SECTION UI = "Panel_ss_ea8074_fhd_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ss_ea8074_fhd_cmd.xml
-}
-
-
-FILE FREEFORM = 48570251-7CBC-499E-B805-B0C5876476C8 {
-    SECTION UI = "Panel_J2A_38_0c_0a_amoled_dsc_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J2A_38_0c_0a_amoled_dsc_cmd.xml
-}
-
-
-FILE FREEFORM = DBA84ED4-7845-40F4-9657-50539BB6945E {
-    SECTION UI = "Panel_J2A_42_02_0b_amoled_dsc_cmd.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J2A_42_02_0b_amoled_dsc_cmd.xml
-}
-
-
-FILE FREEFORM = 17EF92D8-311D-4FE7-BB37-80B893D3730D {
-    SECTION UI = "Panel_J20S_36_02_0a_lcd_dsc_vid.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J20S_36_02_0a_lcd_dsc_vid.xml
-}
-
-
-FILE FREEFORM = 5F12771D-549F-474C-964F-79C525D3ECF5 {
-    SECTION UI = "Panel_J20S_42_02_0b_lcd_dsc_vid.xml"
-    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J20S_42_02_0b_lcd_dsc_vid.xml
-}
-
+#
+#FILE FREEFORM = 1FFE15E5-7EF7-4B25-A02C-4199769D2C62 {
+#    SECTION UI = "Panel_ss_ea8074_fhd_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ss_ea8074_fhd_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = 48570251-7CBC-499E-B805-B0C5876476C8 {
+#    SECTION UI = "Panel_J2A_38_0c_0a_amoled_dsc_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J2A_38_0c_0a_amoled_dsc_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = DBA84ED4-7845-40F4-9657-50539BB6945E {
+#    SECTION UI = "Panel_J2A_42_02_0b_amoled_dsc_cmd.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J2A_42_02_0b_amoled_dsc_cmd.xml
+#}
+#
+#
+#FILE FREEFORM = 17EF92D8-311D-4FE7-BB37-80B893D3730D {
+#    SECTION UI = "Panel_J20S_36_02_0a_lcd_dsc_vid.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J20S_36_02_0a_lcd_dsc_vid.xml
+#}
+#
+#
+#FILE FREEFORM = 5F12771D-549F-474C-964F-79C525D3ECF5 {
+#    SECTION UI = "Panel_J20S_42_02_0b_lcd_dsc_vid.xml"
+#    SECTION RAW = SurfaceDuo1Pkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_J20S_42_02_0b_lcd_dsc_vid.xml
+#}
+#
 
 FILE FREEFORM = 3E5584ED-05D4-4267-9048-0D47F76F4248 {
     SECTION UI = "battery_symbol_Soc10.bmp"
