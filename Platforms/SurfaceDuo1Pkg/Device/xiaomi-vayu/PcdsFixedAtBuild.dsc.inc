@@ -4,12 +4,12 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
 #gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"POCO X3 Pro"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"POCO X3 Pro"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"vayu"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 860 @ 2.96 GHz"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM8150-AC"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"J20S"
 
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Poco X3 Pro"
