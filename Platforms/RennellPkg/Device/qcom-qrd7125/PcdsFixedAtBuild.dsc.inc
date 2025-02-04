@@ -5,14 +5,13 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2248
 
 # Smbios Info
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"QRD"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
+
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"atoll"
 
 # Display Caller
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|1000
-
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI QRD 720"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080

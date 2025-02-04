@@ -4,9 +4,9 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
 
 # Smbios Info
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"MTP"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI MTP 888"
+
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"lahaina"
 
 # Display Caller
 # gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE

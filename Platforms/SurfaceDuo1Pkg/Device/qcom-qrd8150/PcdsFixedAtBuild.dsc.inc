@@ -4,7 +4,6 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2880
 
 # Smbios Info
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"QRD"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI QRD 855"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"msmnile"

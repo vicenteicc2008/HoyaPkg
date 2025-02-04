@@ -4,11 +4,11 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
 
 # Smbios Info
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"HHG"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
+
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) G3x Gen 1 @ 3.00 GHz"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SG8175P"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI HHG 8350"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"lahaina"
 
 gArmTokenSpaceGuid.PcdSystemMemorySize|0x180000000 # 6GB
 

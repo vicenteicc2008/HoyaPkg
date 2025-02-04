@@ -98,7 +98,7 @@
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|""|VOID*|0x0000a303
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|""|VOID*|0x0000a304
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"INVALID"|VOID*|0x0000a305
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"INVALID"|VOID*|0x0000a306
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|""|VOID*|0x0000a306
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"INVALID"|VOID*|0x0000a307
 
   # Simple FrameBuffer

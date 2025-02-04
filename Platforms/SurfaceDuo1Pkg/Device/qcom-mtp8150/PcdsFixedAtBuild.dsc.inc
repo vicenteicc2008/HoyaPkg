@@ -4,7 +4,6 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3840
 
 # Smbios Info
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"MTP"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"QTI MTP 855"
+gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"msmnile"
