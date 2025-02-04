@@ -4,7 +4,7 @@
   # $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf
   # $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
   # $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
-  SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
+  AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
   $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Application/QcomChargerApp/QcomChargerApp.inf
   $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
   $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
@@ -61,6 +61,6 @@
   $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
   $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
   $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/PatchedBinaries/UsbConfigDxe.inf
-  SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
-  SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+  AndromedaPkg/Driver/GpioButtons/GpioButtons.inf
+  AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 

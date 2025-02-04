@@ -20,7 +20,7 @@
   PcBdsPkg/PcBdsPkg.dec
   MsCorePkg/MsCorePkg.dec
   MdeModulePkg/MdeModulePkg.dec
-  SurfaceDuoFamilyPkg/SurfaceDuoFamilyPkg.dec
+  AndromedaPkg/AndromedaPkg.dec
   QcomPkg/QcomPkg.dec
   QcomModulePkg/QcomModulePkg.dec
 
@@ -42,4 +42,4 @@
 
 [FixedPcd]
   gArmPlatformTokenSpaceGuid.PcdClusterCount
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdStorageHasUFS3
+  gAndromedaPkgTokenSpaceGuid.PcdStorageHasUFS3

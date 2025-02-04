@@ -1,13 +1,13 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"OnePlus"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"7 Pro"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"18821"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"guacamole"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"GM1910/GM1911/GM1913/GM1917"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"OnePlus"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"7 Pro"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosBoardModel|"18821"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"guacamole"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"GM1910/GM1911/GM1913/GM1917"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Oneplus 7 Pro"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Oneplus 7 Pro"

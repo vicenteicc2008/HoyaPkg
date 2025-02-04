@@ -1,9 +1,9 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2160
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3840
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2160
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3840
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"msmnile"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"msmnile"

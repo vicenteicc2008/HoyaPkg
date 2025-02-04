@@ -26,14 +26,14 @@
   gEmbeddedTokenSpaceGuid.PcdInterruptBaseAddress|0x9ff8c000
   gEmbeddedTokenSpaceGuid.PcdPrePiCpuIoSize|44
 
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 7c+ Gen 3 @ 2.71 GHz"
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM7325"
+  gAndromedaPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 7c+ Gen 3 @ 2.71 GHz"
+  gAndromedaPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM7325"
 
   gArmPlatformTokenSpaceGuid.PcdCoreCount|8
   gArmPlatformTokenSpaceGuid.PcdClusterCount|3
 
   # UART
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdUartSerialBase|0x00994000
+  gAndromedaPkgTokenSpaceGuid.PcdUartSerialBase|0x00994000
 
 [LibraryClasses.common]
   # PlatformMemoryMapLib|QcomPkg/Library/PlatformMemoryMapLib/PlatformMemoryMapLib.inf
@@ -41,7 +41,7 @@
 
   PlatformPeiLib|QcomPkg/PlatformPei/PlatformPeiLib.inf
   PlatformPrePiLib|QcomPkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
-  AslUpdateLib|SurfaceDuoFamilyPkg/Library/DxeAslUpdateLib/DxeAslUpdateLib.inf
+  AslUpdateLib|AndromedaPkg/Library/DxeAslUpdateLib/DxeAslUpdateLib.inf
   RFSProtectionLib|QcomPkg/Library/RFSProtectionLib/RFSProtectionLib.inf
 
   AcpiPlatformUpdateLib|QcomPkg/Library/AcpiPlatformUpdateLib/AcpiPlatformUpdateLib.inf

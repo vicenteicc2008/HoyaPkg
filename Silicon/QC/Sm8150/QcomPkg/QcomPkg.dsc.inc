@@ -26,14 +26,14 @@
   gEmbeddedTokenSpaceGuid.PcdInterruptBaseAddress|0x09bc0000
   gEmbeddedTokenSpaceGuid.PcdPrePiCpuIoSize|44
 
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 855 @ 2.84 GHz"
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM8150"
+  gAndromedaPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 855 @ 2.84 GHz"
+  gAndromedaPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM8150"
 
   gArmPlatformTokenSpaceGuid.PcdCoreCount|8
   gArmPlatformTokenSpaceGuid.PcdClusterCount|3
 
   # UART
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdUartSerialBase|0x00A90000
+  gAndromedaPkgTokenSpaceGuid.PcdUartSerialBase|0x00A90000
 
 [LibraryClasses.common]
   # Move PlatformMemoryMapLib to Device/<device>/Library
@@ -46,7 +46,7 @@
 
   PlatformPeiLib|QcomPkg/PlatformPei/PlatformPeiLib.inf
   PlatformPrePiLib|QcomPkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
-  AslUpdateLib|SurfaceDuoFamilyPkg/Library/DxeAslUpdateLib/DxeAslUpdateLib.inf
+  AslUpdateLib|AndromedaPkg/Library/DxeAslUpdateLib/DxeAslUpdateLib.inf
   RFSProtectionLib|QcomPkg/Library/RFSProtectionLib/RFSProtectionLib.inf
 
   AcpiPlatformUpdateLib|QcomPkg/Library/AcpiPlatformUpdateLib/AcpiPlatformUpdateLib.inf
@@ -55,4 +55,4 @@
   ConsoleMsgLib|PcBdsPkg/Library/ConsoleMsgLibNull/ConsoleMsgLibNull.inf
 
 [Components.common]
- SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
+ AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf

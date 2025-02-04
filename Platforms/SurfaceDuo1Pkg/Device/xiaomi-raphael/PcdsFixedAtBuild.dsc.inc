@@ -1,15 +1,15 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"K20 Pro"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"raphael"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"K20 Pro"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"raphael"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi K20 Pro"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi K20 Pro"
 
 # Storage
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdStorageHasUFS3|0
+gAndromedaPkgTokenSpaceGuid.PcdStorageHasUFS3|0

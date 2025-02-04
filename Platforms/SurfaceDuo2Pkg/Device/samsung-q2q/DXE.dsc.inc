@@ -11,8 +11,8 @@ $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
 
 # Drivers
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
-SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
-SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+AndromedaPkg/Driver/GpioButtons/GpioButtons.inf
+AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 #$(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf

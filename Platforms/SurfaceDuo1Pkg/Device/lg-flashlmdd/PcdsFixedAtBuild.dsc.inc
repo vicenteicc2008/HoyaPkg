@@ -1,15 +1,15 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"LG Electronics"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"V50 ThinQ"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"flashlmdd"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"LM-V500"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"LG Electronics"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"V50 ThinQ"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"flashlmdd"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"LM-V500"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"LGE V50 ThinQ"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"LGE V50 ThinQ"
 
 # Storage
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdStorageHasUFS3|0
+gAndromedaPkgTokenSpaceGuid.PcdStorageHasUFS3|0

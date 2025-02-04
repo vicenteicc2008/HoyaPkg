@@ -36,16 +36,16 @@
   USE_SIMPLEFBDXE                = 1
 
   DEFAULT_KEYS                   = TRUE
-  PK_DEFAULT_FILE                = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/WOAMSMNILE-PK.der
-  KEK_DEFAULT_FILE1              = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/KEK/Certificates/MicCorKEKCA2011_2011-06-24.der
-  KEK_DEFAULT_FILE2              = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/KEK/Certificates/microsoft_corporation_kek_2k_ca_2023.der
-  KEK_DEFAULT_FILE3              = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/WOAMSMNILE-KEK.der
-  DB_DEFAULT_FILE1               = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/MicWinProPCA2011_2011-10-19.der
-  DB_DEFAULT_FILE2               = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/windows_uefi_ca_2023.der
-  DB_DEFAULT_FILE3               = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/MicCorUEFCA2011_2011-06-27.der
-  DB_DEFAULT_FILE4               = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/microsoft_uefi_ca_2023.der
-  DB_DEFAULT_FILE5               = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/microsoft_option_rom_uefi_ca_2023.der
-  DBX_DEFAULT_FILE1              = SurfaceDuoFamilyPkg/Include/Resources/SecureBoot/Artifacts/Aarch64/DefaultDbx.bin
+  PK_DEFAULT_FILE                = AndromedaPkg/Include/Resources/SecureBoot/keystore/WOAMSMNILE-PK.der
+  KEK_DEFAULT_FILE1              = AndromedaPkg/Include/Resources/SecureBoot/keystore/KEK/Certificates/MicCorKEKCA2011_2011-06-24.der
+  KEK_DEFAULT_FILE2              = AndromedaPkg/Include/Resources/SecureBoot/keystore/KEK/Certificates/microsoft_corporation_kek_2k_ca_2023.der
+  KEK_DEFAULT_FILE3              = AndromedaPkg/Include/Resources/SecureBoot/keystore/WOAMSMNILE-KEK.der
+  DB_DEFAULT_FILE1               = AndromedaPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/MicWinProPCA2011_2011-10-19.der
+  DB_DEFAULT_FILE2               = AndromedaPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/windows_uefi_ca_2023.der
+  DB_DEFAULT_FILE3               = AndromedaPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/MicCorUEFCA2011_2011-06-27.der
+  DB_DEFAULT_FILE4               = AndromedaPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/microsoft_uefi_ca_2023.der
+  DB_DEFAULT_FILE5               = AndromedaPkg/Include/Resources/SecureBoot/keystore/DB/Certificates/microsoft_option_rom_uefi_ca_2023.der
+  DBX_DEFAULT_FILE1              = AndromedaPkg/Include/Resources/SecureBoot/Artifacts/Aarch64/DefaultDbx.bin
 
   DXE_CRYPTO_SERVICES            = STANDARD
   PEI_CRYPTO_SERVICES            = NONE
@@ -73,17 +73,17 @@ GCC:*_*_AARCH64_CC_FLAGS = -DSILICON_PLATFORM=8998
   # Platform-specific
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x80000000            # 2GB
 
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"napali"
+  gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"napali"
 
 [Components.common]
   # Graphics Driver
   !if $(USE_SIMPLEFBDXE) == TRUE
-    SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+    AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
   !endif
-  SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
+  AndromedaPkg/Driver/GpioButtons/GpioButtons.inf
 
   # Auto Memory Adder
-  SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
+  AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
 
 # Device Specific Drivers
 !include NazgulPkg/Device/$(TARGET_DEVICE)/DXE.dsc.inc
@@ -109,5 +109,5 @@ GCC:*_*_AARCH64_CC_FLAGS = -DSILICON_PLATFORM=8998
 
 !include QcomPkg/QcomPkg.dsc.inc
 !include NazgulPkg/Device/$(TARGET_DEVICE)/PcdsFixedAtBuild.dsc.inc
-!include SurfaceDuoFamilyPkg/SurfaceDuoFamily.dsc.inc
-!include SurfaceDuoFamilyPkg/Frontpage.dsc.inc
+!include AndromedaPkg/Andromeda.dsc.inc
+!include AndromedaPkg/Frontpage.dsc.inc

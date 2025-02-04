@@ -1,16 +1,16 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"XiaoMi"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"6"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"XiaoMi 6"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"sagit"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"XiaoMi"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"6"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosBoardModel|"XiaoMi 6"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"sagit"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"XiaoMi 6"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"XiaoMi 6"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080

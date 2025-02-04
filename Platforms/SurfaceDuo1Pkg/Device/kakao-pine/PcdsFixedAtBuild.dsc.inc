@@ -1,15 +1,15 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Kakao"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Stage 5G"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Pine"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Kakao"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Stage 5G"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Pine"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Kakao Stage 5G"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Kakao Stage 5G"
 
 # Storage
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdStorageHasUFS3|0
+gAndromedaPkgTokenSpaceGuid.PcdStorageHasUFS3|0

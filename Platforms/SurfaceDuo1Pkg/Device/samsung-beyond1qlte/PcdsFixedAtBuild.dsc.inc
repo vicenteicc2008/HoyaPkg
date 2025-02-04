@@ -1,15 +1,15 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3040
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3040
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"S10"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"beyond1qlte"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"S10"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"beyond1qlte"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Samsung S10"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Samsung S10"
 
 # Storage
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdStorageHasUFS3|0
+gAndromedaPkgTokenSpaceGuid.PcdStorageHasUFS3|0

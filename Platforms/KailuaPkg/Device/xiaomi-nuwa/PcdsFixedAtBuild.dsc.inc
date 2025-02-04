@@ -1,12 +1,12 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3200
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3200
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Xiaomi 13 Pro"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"nuwa"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Xiaomi 13 Pro"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"nuwa"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi 13 Pro"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi 13 Pro"

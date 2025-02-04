@@ -8,8 +8,8 @@ INF QcomPkg/PatchedBinaries/UsbConfigDxe.inf
 INF $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
 
 # Drivers
-INF SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
-INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+INF AndromedaPkg/Driver/GpioButtons/GpioButtons.inf
+INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 #INF $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
 INF $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
 INF $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf

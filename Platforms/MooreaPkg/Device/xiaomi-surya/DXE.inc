@@ -100,7 +100,7 @@ INF MooreaPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
 !if $(USE_SIMPLEFBDXE) == false
     INF MooreaPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
 !else
-    INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+    INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 !endif
 
 # DXE without depex

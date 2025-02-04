@@ -19,7 +19,7 @@ Rennell/BOOT.XF.3.1.1-00014-SC7180XWZB-1/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3D
 #Rennell/BOOT.XF.3.1.1-00014-SC7180XWZB-1/QcomPkg/Drivers/TrEEDxe/TpmDxe.inf
 #Rennell/BOOT.XF.3.1.1-00014-SC7180XWZB-1/QcomPkg/Drivers/TrEEDxe/TrEEDxe.inf
 #Rennell/BOOT.XF.3.1.1-00014-SC7180XWZB-1/QcomPkg/Drivers/SecurityDxe/SecurityDxe.inf
-SurfaceDuoFamilyPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
+AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
 
 RennellPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/VibratorDxe/VibratorDxe.inf
 #RennellPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/MinidumpTADxe/MinidumpTADxe.inf

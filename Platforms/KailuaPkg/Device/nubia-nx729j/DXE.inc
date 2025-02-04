@@ -2,7 +2,7 @@
 #    SECTION UI = "uefiplat.cfg"
 #    SECTION RAW = RawFiles/uefiplat.cfg
 #}
-INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 INF KailuaPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
 INF KailuaPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ParserDxe/ParserDxe.inf
 INF KailuaPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/SerialPortDxe/SerialPortDxe.inf

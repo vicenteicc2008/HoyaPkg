@@ -150,5 +150,5 @@ APRIORI DXE {
             SECTION UI = "GraphicsConsoleDxe"
     }
 
-    INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+    INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 }

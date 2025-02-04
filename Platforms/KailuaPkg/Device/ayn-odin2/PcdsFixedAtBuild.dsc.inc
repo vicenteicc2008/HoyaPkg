@@ -1,13 +1,13 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"AYN"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Odin 2"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Odin"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"HDK"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"AYN Odin 2"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"AYN"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Odin 2"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Odin"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"HDK"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"AYN Odin 2"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080

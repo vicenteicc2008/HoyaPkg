@@ -13,7 +13,7 @@ INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
 INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
 INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
 #INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/PmicDxe/PmicDxeWp.inf
-INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
 #INF MdeModulePkg/Core/Dxe/DxeMain.inf
 #INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf

@@ -83,11 +83,11 @@ READ_LOCK_STATUS   = TRUE
 
   # Debug heartbeat
 !if $(SEND_HEARTBEAT_TO_SERIAL) == 1
-  INF SurfaceDuoFamilyPkg/Driver/HeartbeatDxe/HeartbeatDxe.inf
+  INF AndromedaPkg/Driver/HeartbeatDxe/HeartbeatDxe.inf
 !endif
 
   # Secure Boot Key Enroll
-  INF SurfaceDuoFamilyPkg/Driver/SecureBootProvisioningDxe/SecureBootProvisioningDxe.inf
+  INF AndromedaPkg/Driver/SecureBootProvisioningDxe/SecureBootProvisioningDxe.inf
   INF EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe.inf
 
   # BDS
@@ -109,7 +109,7 @@ READ_LOCK_STATUS   = TRUE
   # ACPI and SMBIOS
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
-  INF SurfaceDuoFamilyPkg/Driver/SmBiosTableDxe/SmBiosTableDxe.inf
+  INF AndromedaPkg/Driver/SmBiosTableDxe/SmBiosTableDxe.inf
 
   # ACPI Tables
   !include PalimaPkg/Include/ACPI.inc
@@ -120,7 +120,7 @@ READ_LOCK_STATUS   = TRUE
 
   INF MdeModulePkg/Universal/EsrtFmpDxe/EsrtFmpDxe.inf
 
-  !include SurfaceDuoFamilyPkg/Frontpage.fdf.inc
+  !include AndromedaPkg/Frontpage.fdf.inc
 
   FILE FREEFORM = PCD(gMsCorePkgTokenSpaceGuid.PcdRegulatoryGraphicFileGuid) {
     SECTION RAW = PalimaPkg/Include/Resources/RegulatoryLogos.png
@@ -176,9 +176,9 @@ READ_LOCK_STATUS   = TRUE
   # INF NetworkPkg/Udp6Dxe/Udp6Dxe.inf
   # INF NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
   # INF NetworkPkg/VlanConfigDxe/VlanConfigDxe.inf
-  # INF SurfaceDuoFamilyPkg/Driver/ColorbarsDxe/ColorbarsDxe.inf
-  # INF SurfaceDuoFamilyPkg/Driver/SurfaceFirmwareProvisioningDataDxe/SurfaceFirmwareProvisioningDataDxe.inf
-  # INF SurfaceDuoFamilyPkg/UFP/ufpdevicefw.inf
+  # INF AndromedaPkg/Driver/ColorbarsDxe/ColorbarsDxe.inf
+  # INF AndromedaPkg/Driver/SurfaceFirmwareProvisioningDataDxe/SurfaceFirmwareProvisioningDataDxe.inf
+  # INF AndromedaPkg/UFP/ufpdevicefw.inf
 
 [FV.FVMAIN_COMPACT]
 FvAlignment        = 8
@@ -198,7 +198,7 @@ READ_STATUS        = TRUE
 READ_LOCK_CAP      = TRUE
 READ_LOCK_STATUS   = TRUE
 
-  INF SurfaceDuoFamilyPkg/PrePi/PeiUniCore.inf
+  INF AndromedaPkg/PrePi/PeiUniCore.inf
 
   FILE FREEFORM = dde58710-41cd-4306-dbfb-3fa90bb1d2dd {
     SECTION UI = "uefiplat.cfg"
@@ -211,4 +211,4 @@ READ_LOCK_STATUS   = TRUE
     }
   }
 
-  !include SurfaceDuoFamilyPkg/SurfaceDuoFamily.fdf.inc
+  !include AndromedaPkg/Andromeda.fdf.inc

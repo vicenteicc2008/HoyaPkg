@@ -9,7 +9,7 @@ INF Nazgul/BOOT.XF.1.2.2-00131-M8998WZB-1/QcomPkg/Drivers/AdapterInformationDxe/
 INF Nazgul/BOOT.XF.1.2.2-00131-M8998WZB-1/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
 INF Nazgul/BOOT.XF.1.2.2-00131-M8998WZB-1/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
 INF Nazgul/BOOT.XF.1.2.2-00131-M8998WZB-1/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
-INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
 #INF MdeModulePkg/Core/Dxe/DxeMain.inf
 #INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf

@@ -1,16 +1,16 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2160
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2160
+#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"OnePlus"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"5T"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"16859"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"dumpling"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"A5010"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"OnePlus"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"5T"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosBoardModel|"16859"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"dumpling"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"A5010"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"OnePlus 5T"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"OnePlus 5T"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080

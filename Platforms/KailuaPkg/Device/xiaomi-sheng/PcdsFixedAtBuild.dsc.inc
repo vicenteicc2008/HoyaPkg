@@ -1,17 +1,17 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|3048
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2032
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|3048
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2032
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pad 6 S"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Xiaomi Pad 6S"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Sheng"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi Pad 6S"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pad 6 S"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"Xiaomi Pad 6S"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Sheng"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Xiaomi Pad 6S"
 
 # Display Caller
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|TRUE
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|2000
+gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|TRUE
+gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|2000
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|3048
