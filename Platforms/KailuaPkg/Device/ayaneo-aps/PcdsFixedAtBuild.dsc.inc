@@ -1,17 +1,17 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2560
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2560
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"AYANEO"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pocket S"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"PS"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Graphic QRD"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"AYANEO Pocket S"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"AYANEO"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pocket S"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"PS"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Graphic QRD"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"AYANEO Pocket S"
 
 # Display Caller
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|1000
+gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
+gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|1000
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1440

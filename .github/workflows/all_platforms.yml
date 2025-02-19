@@ -14,7 +14,7 @@ on:
 #      - "MU_BASECORE"
 #      - "Silicon/Arm/**"
 #      - "scripts/**"
-#      - "Platforms/SurfaceDuoFamilyPkg/**"
+#      - "Platforms/AndromedaPkg/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,7 +29,7 @@ on:
 #      - "MU_BASECORE"
 #      - "Silicon/Arm/**"
 #      - "scripts/**"
-#      - "Platforms/SurfaceDuoFamilyPkg/**"
+#      - "Platforms/AndromedaPkg/**"
 
 # Indicate that we are running in CI
 env:
@@ -70,12 +70,51 @@ jobs:
       matrix:
         target:
           [
-            { platform: "NapaliPkg", codename: "napali", chipname: "sdm845" },
-            { platform: "RennellPkg", codename: "rennell", chipname: "sm7125" },
-            { platform: "KailuaPkg", codename: "kailua", chipname: "sm8550" },
-            { platform: "KodiakPkg", codename: "kodiak", chipname: "sm7325" },
-            { platform: "KonaPkg", codename: "kona", chipname: "sm8250" },
-            { platform: "PalimaPkg", codename: "palima", chipname: "sm8475" },
+            {
+              platform: "KailuaPkg",
+              codename: "kailua",
+              chipname: "sm8550"
+            },
+            {
+              platform: "KodiakPkg",
+              codename: "kodiak",
+              chipname: "sm7325"
+            },
+            {
+              platform: "KonaPkg",
+              codename: "kona",
+              chipname: "sm8250"
+            },
+            {
+              platform: "MooreaPkg",
+              codename: "moorea",
+              chipname: "sm7150"
+            },
+            {
+              platform: "NapaliPkg",
+              codename: "napali",
+              chipname: "sdm845"
+            },
+            {
+              platform: "IstariPkg",
+              codename: "istari",
+              chipname: "msm8996"
+            },
+            {
+              platform: "NazgulPkg",
+              codename: "nazgul",
+              chipname: "msm8998"
+            },
+            {
+              platform: "RennellPkg",
+              codename: "rennell",
+              chipname: "sm7125"
+            },
+            {
+              platform: "PalimaPkg",
+              codename: "palima",
+              chipname: "sm8475"
+            },
             {
               platform: "SurfaceDuo1Pkg",
               codename: "hana",

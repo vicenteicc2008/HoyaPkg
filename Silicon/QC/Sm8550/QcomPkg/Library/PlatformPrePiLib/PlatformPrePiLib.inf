@@ -12,7 +12,7 @@
 [Packages]
   MdePkg/MdePkg.dec
   QcomPkg/QcomPkg.dec
-  SurfaceDuoFamilyPkg/SurfaceDuoFamilyPkg.dec
+  AndromedaPkg/AndromedaPkg.dec
 
 [LibraryClasses]
   BaseLib

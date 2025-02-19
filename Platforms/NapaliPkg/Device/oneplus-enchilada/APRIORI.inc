@@ -76,7 +76,7 @@ APRIORI DXE {
     }
 
     FILE DRIVER = C2F9A4F5-F7B4-43E7-BA99-5EA804CC103A {
-        SECTION PE32 = NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
+        SECTION PE32 = NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.efi
         SECTION UI = "ASN1X509Dxe"
     }
 
@@ -148,5 +148,5 @@ APRIORI DXE {
             SECTION UI = "GraphicsConsoleDxe"
     }
 
-    INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+    INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 }

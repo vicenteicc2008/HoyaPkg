@@ -1,14 +1,14 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2560
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1600
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2560
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1600
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Tab S6"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"gts6l"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Tab S6"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"gts6l"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Samsung Tab S6"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Samsung Tab S6"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|2152
@@ -19,3 +19,4 @@ gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|269
 gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|80    
 gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|269     
 gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|80         
+

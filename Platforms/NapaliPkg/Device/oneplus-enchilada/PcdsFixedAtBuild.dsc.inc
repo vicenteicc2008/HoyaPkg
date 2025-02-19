@@ -1,14 +1,13 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2280
-#gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2280
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"OnePlus"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"6"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"17819"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"enchilada"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"A6003"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"OnePlus"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"6"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosBoardModel|"17819"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"enchilada"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"A6003"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"OnePlus 6"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"OnePlus 6"
 

@@ -1,14 +1,14 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2560
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1600
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2560
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1600
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Tab S6 WIFI"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"gts6lwifi"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Tab S6 WIFI"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"gts6lwifi"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Samsung Tab S6 WIFI"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Samsung Tab S6 WIFI"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|2152

@@ -1,7 +1,7 @@
 [Components.common]
 # QcomPkg/XBLCore/XBLCore.inf
-#SurfaceDuoFamilyPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
-SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
+#AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
+AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/VcsDxe/VcsDxe.inf

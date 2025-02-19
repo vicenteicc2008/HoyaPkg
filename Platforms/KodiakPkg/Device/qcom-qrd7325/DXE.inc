@@ -3,8 +3,8 @@
 #    SECTION RAW = RawFiles/uefiplat.cfg
 #}
 
-INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
-INF SurfaceDuoFamilyPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
+INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+INF AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
 
 INF Kodiak/BOOT.MXF.1.0.1-00206-KODIAKWP-1/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
 INF Kodiak/BOOT.MXF.1.0.1-00206-KODIAKWP-1/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf

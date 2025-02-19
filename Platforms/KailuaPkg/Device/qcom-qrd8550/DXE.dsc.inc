@@ -1,5 +1,5 @@
 [Components.common]
-SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
+AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ParserDxe/ParserDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/SerialPortDxe/SerialPortDxe.inf
@@ -80,4 +80,4 @@ QcomPkg/PatchedBinaries/ClockDxe.inf
 QcomPkg/PatchedBinaries/PmicDxeLa.inf
 #QcomPkg/PatchedBinaries/QcomChargerDxeLA.inf
 #QcomPkg/PatchedBinaries/FeatureEnablerDxe.inf
-SurfaceDuoFamilyPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
+AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf

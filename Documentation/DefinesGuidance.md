@@ -10,7 +10,7 @@ ___
     - If `HAS_MLVM = TRUE`, the MLVM regions will be reserved, so HLOS will not use this region.
     - Total RAM size will decrease about 400MB.
   * Where used it ?
-    - `HAS_MLVM` is used in Platforms/SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/ExtendedMemoryMap.h.
+    - `HAS_MLVM` is used in Platforms/AndromedaPkg/Driver/RamPartitionDxe/ExtendedMemoryMap.h.
 
 > **CUST_PLATFORM_PRE_PI_LIB**  
   * Type
@@ -25,7 +25,7 @@ ___
   * What happened when **1**?
     - The build-system will try to find PlatformPrePiLib under Device/$(brand-codename)/Library/PlatformPrePiLib/
   * Where used it ?
-    - `CUST_PLATFORM_PRE_PI_LIB`  is used in Platforms/SurfaceDuoFamilyPkg/SurfaceDuoFamily.dsc.inc
+    - `CUST_PLATFORM_PRE_PI_LIB`  is used in Platforms/AndromedaPkg/Andromeda.dsc.inc
     - Line: 395
 
 > **CUST_LOGO**  
@@ -36,4 +36,4 @@ ___
   * What happened when **1**?
     - The Boot Logo will be replaced with the one under Device/$(brand-codename)/Include/Resources/CustBootLogo.bmp
   * Where used it ?
-    - `CUST_LOGO` is used in Platforms/SurfaceDuoFamilyPkg/Frontpage.fdf.inc
+    - `CUST_LOGO` is used in Platforms/AndromedaPkg/Frontpage.fdf.inc

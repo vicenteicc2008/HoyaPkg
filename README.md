@@ -90,6 +90,20 @@ sudo docker run -v $(pwd):/build/ -it mu:v1
 
 ## Target list
 
+### Snapdragon 835 (*MSM8998*)
+
+#### OnePlus Devices
+
+| Device                               | Target name            | DSDT Support    | Contributors                                       |
+|--------------------------------------|------------------------|-----------------|----------------------------------------------------|
+| OnePlus 5T                           | oneplus-dumpling       | ✅              | [qaz6750](https://github.com/qaz6750)              |
+
+#### Xiaomi Devices
+
+| Device                               | Target name            | DSDT Support    | Contributors                                       |
+|--------------------------------------|------------------------|-----------------|----------------------------------------------------|
+| Xiaomi 6                             | Xiaomi-sagit           | ✅              | [qaz6750](https://github.com/qaz6750)              |
+
 ### Snapdragon 845/850 (*SDM845*)
 
 #### OnePlus Devices
@@ -222,8 +236,15 @@ sudo docker run -v $(pwd):/build/ -it mu:v1
 
 | Device                               | Target name            | DSDT Support    | Contributors                                       |
 |--------------------------------------|------------------------|-----------------|----------------------------------------------------|
-| Xiaomi Note 10 Pro                   | xiaomi-sweet           | ❌              | [dopaemon](https://github.com/dopaemon)            |
 | Xiaomi Note 9S                       | xiaomi-miatoll         | ✅              | Icesito                                            |
+
+### Snapdragon 730/730G/732G (*SM7150*)
+
+#### Xiaomi Devices
+
+| Device                               | Target name            | DSDT Support    | Contributors                                       |
+|--------------------------------------|------------------------|-----------------|----------------------------------------------------|
+| Xiaomi POCO X3                       | xiaomi-surya           | ✅              | [remtrik](https://github.com/remtrik)              |
 
 
 ### Snapdragon 778G/7c+ Gen 3 (*SM7325*/*SC7280*)

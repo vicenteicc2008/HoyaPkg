@@ -1,6 +1,6 @@
 [Components.common]
 # QcomPkg/XBLCore/XBLCore.inf
-SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
+AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ProjectInfoDxe/ProjectInfoDxe.inf
 $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf

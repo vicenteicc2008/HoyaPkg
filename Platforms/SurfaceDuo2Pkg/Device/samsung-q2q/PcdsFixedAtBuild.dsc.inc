@@ -1,18 +1,18 @@
 [PcdsFixedAtBuild.common]
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2208
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1768
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|2208
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1768
 
 # Smbios Info
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung Electronics"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Galaxy Z Fold 3 5G"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"q2q"
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Galaxy_Z_Fold_3_5G_q2q"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Samsung Electronics"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Galaxy Z Fold 3 5G"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"q2q"
+gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Galaxy_Z_Fold_3_5G_q2q"
 
-gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdABLProduct|"Galaxy Z Fold 3 5G"
+gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"Galaxy Z Fold 3 5G"
 
 # Display Caller
-# gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
-# gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|2000000
+# gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
+# gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerStallBeforeEnable|2000000
 
 [PcdsDynamicDefault.common]
   gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|2208

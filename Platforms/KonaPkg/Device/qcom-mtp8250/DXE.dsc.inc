@@ -58,5 +58,5 @@
   KonaPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
   QcomPkg/PatchedBinaries/UFSDxe.inf
   QcomPkg/PatchedBinaries/UsbConfigDxe.inf
-  SurfaceDuoFamilyPkg/Driver/GpioButtons/GpioButtons.inf
-  SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+  AndromedaPkg/Driver/GpioButtons/GpioButtons.inf
+  AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
